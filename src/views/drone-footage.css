@@ -1,0 +1,460 @@
+.drone-footage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.drone-footage-top-container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIyfHxkcm9uZXxlbnwwfHx8fDE3MTc0MzE0ODd8MA&ixlib=rb-4.0.3&w=1500');
+  background-position: 0% 40%;
+}
+.drone-footage-navbar {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  max-width: 1000px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.drone-footage-navlink {
+  display: contents;
+}
+.drone-footage-logo {
+  text-decoration: none;
+}
+.drone-footage-right-side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.drone-footage-links-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.drone-footage-navlink1 {
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.drone-footage-navlink2 {
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.drone-footage-navlink3 {
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.drone-footage-contact {
+  text-decoration: none;
+}
+.drone-footage-burger-menu {
+  display: none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.drone-footage-burger-menu1 {
+  width: 24px;
+  height: 24px;
+}
+.drone-footage-mobile-menu {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  padding: var(--dl-space-space-doubleunit);
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.drone-footage-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.drone-footage-top {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.drone-footage-close-menu {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.drone-footage-icon03 {
+  width: 24px;
+  height: 24px;
+}
+.drone-footage-right-side1 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.drone-footage-links-container1 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.drone-footage-text {
+  margin-bottom: 8px;
+}
+.drone-footage-text01 {
+  margin-bottom: 8px;
+}
+.drone-footage-text02 {
+  margin-bottom: 8px;
+}
+.drone-footage-follow-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.drone-footage-text04 {
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.drone-footage-icons-container {
+  width: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.drone-footage-link {
+  display: contents;
+}
+.drone-footage-icon05 {
+  width: 24px;
+  height: 24px;
+}
+.drone-footage-link1 {
+  display: contents;
+}
+.drone-footage-icon07 {
+  width: 24px;
+  height: 24px;
+}
+.drone-footage-link2 {
+  display: contents;
+}
+.drone-footage-icon09 {
+  width: 24px;
+  height: 24px;
+}
+.drone-footage-hero {
+  width: 100%;
+  height: 528px;
+  display: flex;
+  max-width: 1000px;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: center;
+}
+.drone-footage-text05 {
+  height: 67px;
+}
+.drone-footage-content-container {
+  height: 418px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.drone-footage-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-quadruple);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-quadruple);
+  justify-content: flex-start;
+  background-color: #8ba1b3;
+}
+.drone-footage-cards-container {
+  width: 100%;
+  display: flex;
+  grid-gap: var(--dl-space-space-doubleunit);
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.drone-footage-component1 {
+  text-decoration: none;
+}
+.drone-footage-component2 {
+  text-decoration: none;
+}
+.drone-footage-component3 {
+  text-decoration: none;
+}
+.drone-footage-component4 {
+  text-decoration: none;
+}
+.drone-footage-component5 {
+  text-decoration: none;
+}
+.drone-footage-component6 {
+  text-decoration: none;
+}
+.drone-footage-footer {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-tripleunit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dl-color-gray-black);
+}
+.drone-footage-menu {
+  width: 100%;
+  display: flex;
+  max-width: 1000px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.drone-footage-links-container2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.drone-footage-container1 {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 100px;
+  flex-direction: column;
+}
+.drone-footage-text10 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.drone-footage-link3 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.drone-footage-text11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.drone-footage-link4 {
+  text-decoration: none;
+}
+.drone-footage-container2 {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 100px;
+  flex-direction: column;
+}
+.drone-footage-navlink4 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.drone-footage-navlink5 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.drone-footage-navlink6 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.drone-footage-navlink7 {
+  text-decoration: none;
+}
+.drone-footage-follow-container1 {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.drone-footage-text12 {
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.drone-footage-icons-container1 {
+  width: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.drone-footage-link5 {
+  display: contents;
+}
+.drone-footage-icon11 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+.drone-footage-link6 {
+  display: contents;
+}
+.drone-footage-icon13 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+.drone-footage-link7 {
+  display: contents;
+}
+.drone-footage-icon15 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 1200px) {
+  .drone-footage-top-container {
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIyfHxkcm9uZXxlbnwwfHx8fDE3MTc0MzE0ODd8MA&ixlib=rb-4.0.3&w=1500");
+  }
+  .drone-footage-hero {
+    padding-top: 0px;
+  }
+  .drone-footage-text05 {
+    font-size: 3rem;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 1.55;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .drone-footage-content-container {
+    height: 307px;
+    border-width: 0px;
+  }
+  .drone-footage-text09 {
+    line-height: 2;
+  }
+  .drone-footage-text10 {
+    text-decoration: none;
+  }
+  .drone-footage-link3 {
+    text-decoration: none;
+  }
+}
+@media(max-width: 991px) {
+  .drone-footage-hero {
+    padding-left: var(--dl-space-space-tripleunit);
+    padding-right: var(--dl-space-space-tripleunit);
+  }
+  .drone-footage-cards-container {
+    justify-content: center;
+  }
+}
+@media(max-width: 767px) {
+  .drone-footage-navbar {
+    padding-right: 2em;
+  }
+  .drone-footage-right-side {
+    display: none;
+  }
+  .drone-footage-burger-menu {
+    display: flex;
+  }
+  .drone-footage-hero {
+    justify-content: center;
+  }
+  .drone-footage-text05 {
+    font-size: 2.5rem;
+  }
+  .drone-footage-content-container {
+    align-items: center;
+  }
+  .drone-footage-main {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .drone-footage-menu {
+    flex-direction: column;
+  }
+  .drone-footage-links-container2 {
+    margin-top: var(--dl-space-space-tripleunit);
+    margin-bottom: var(--dl-space-space-tripleunit);
+    justify-content: space-between;
+  }
+  .drone-footage-container1 {
+    margin-left: 0px;
+  }
+}
+@media(max-width: 479px) {
+  .drone-footage-navbar {
+    padding-right: 2em;
+  }
+  .drone-footage-text05 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .drone-footage-links-container2 {
+    margin-top: var(--dl-space-space-doubleunit);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .drone-footage-text10 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .drone-footage-link3 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .drone-footage-text11 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .drone-footage-link4 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .drone-footage-container2 {
+    height: 100%;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+  .drone-footage-navlink4 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .drone-footage-navlink5 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .drone-footage-navlink6 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .drone-footage-navlink7 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .drone-footage-follow-container1 {
+    margin-left: 0px;
+  }
+}
